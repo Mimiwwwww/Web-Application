@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{
+			width: 8%;
+			padding-bottom: 10px;
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		
+		div.Header1 {
+		text-align: center;
+		margin-right: 100px;
+		margin-top: 10px;
+  		length: 500px;
+  		width: 1500px;
+   		float:center; 
+  		padding: 10px;
+		color: #ffffff;
+        font-size:20px;
+		background-color: #0F2C59;
+        box-shadow:0 10px 0px 0 rgba(0, 0, 0,15.20);
+		
+			
+}
+		
+		div.Header2 { 
+		margin-right: 100px;
+  		length: 500px;
+  		width: 1480px; 
+  		padding: 20px;	
+		padding-top: 10px;
+		background-color: #F8F0E5;
+		
+			
+}
+		
+		div.TopNav{
+		overflow: hidden;
+  		background-color: #0F2C59;
+		width: 1520px;
+					
+}
+
+		div.TopNav a {
+  		float: left;
+  		color: #f2f2f2;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+}
+
+ 		div.TopNav a:hover {
+  		background-color: #5379F6;
+  		color: black;
+			
+}
+		div.TopNav a.primary {
+  		background-color: #F8F0E5;
+		color: black;
+		font-family: "Times New Roman", Times, serif; 
+		font-weight: bold;
+		font-size: 20px; 
+}
+		
+		div.Content1 {
+  		padding: 80px;
+		padding-bottom: none;
+		background-color: #D7C1A0;
+		width: 1360px;
+		height: 500px;
+		background-image: url("../Pictures/background image.jpg");
+		float:center; 
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+	
+		}
+		
+		.Parallelogram {
+		width: 350px;
+		height: 665px;
+		transform: skew(-15deg);
+		background: #190E98;
+		position: absolute;
+		left: 950px;
+		top: 265px;
+		opacity: 0.85;
+}
+		
+		.ccslogo{
+			width: 210px;
+			height: 185px;
+			position: absolute;
+			left: 35px;
+			top: 80px;
+		}
+		
+		.SAP {
+			font-size: 60px;
+			font-family: "Times New Roman";
+			text-align: justify;
+			position: absolute;
+			left: 20px;
+			bottom: 50px;
+			color: #FFFFFF
+		}
+	
+		.button3{ 
+		width: 100px;
+		height: 30px;
+		position:relative;
+		bottom: 700px;
+		left: 1365px;
+		font-size: 20px;
+		font-family: "Times New Roman";
+		background-color: #0F2C59;
+		color: white;
+		border: none;
+		
+}
+
+		.New {
+			font-family:"Times New Roman";
+			font-size: 15px;
+			position: relative;
+			bottom: 820px;
+			left: 230px;
+}
+
+		.SignUp {
+			font-family:"Times New Roman";
+			font-size: 15px;
+			position: relative;
+			bottom: 853px;
+			left: 290px;
+}
+
+		.message {
+			font-family:"Times New Roman";
+			font-size: 35px;
+			position: relative;
+			bottom: 840px;
+			left: 175px;
+}
+
+		.SocialBG {
+	    width: 350px;
+		height: 480px;
+		position: relative;
+		right: 185px;
+		bottom: 20px;
+		opacity: 0.30;
+}
+
+		.Social1 {
+		width: 305px;
+		height: 345px;
+		position: relative;
+		bottom: 450px;
+		right: 190px;
+}
+		
+		.AdminButton {
+			width: 250px;
+			height: 35px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: relative;
+			bottom: 850px;
+			left: 295px;
+			
+		}
+
+		.EvalButton {
+			width: 250px;
+			height: 35px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: relative;
+			bottom: 780px;
+			left: 43px;
+		}
+		
+		.StudentButton {
+			width: 250px;
+			height: 35px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: relative;
+			bottom: 755px;
+			left: 170px;
+		}
+
+		.popup .overlay {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100vw;
+			height: 100vh;
+			background: rgba(0,0,0,0.7);
+			z-index: 1;
+			display: none;
+		}
+
+		.popup .content {
+			position: absolute;
+			top: 550px;
+			left: 50%;
+			transform: translate(-50%, -50%) scale(0);
+			background: #fff;
+			width: 720px;
+			height: 480px;
+			z-index: 2;
+			text-align: center;
+			padding: 20px;
+			box-sizing: border-box;
+			background-color: #F8F0E5;
+		}
+		
+		.popup .closebtn{
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			width: 30px;
+			height: 30px;
+			background: #222;
+			color: #fff;
+			font-size: 25px;
+			font-weight: 600;
+			line-height: 30px;
+			text-align: center;
+			border-radius: 50%;
+		}
+		
+		.popup.active .overlay{
+			display: block;
+		}
+		
+		.popup.active .content{
+			transition: all 300ms ease-in-out;
+			transform: translate(-50%, -50%) scale(1);
+		}
+
+		input[type=text], input[type=password] {
+ 		 width: 320px;;
+ 		 padding: 12px 20px;
+  		 margin: 8px 0;
+  		 display: inline-block;
+ 		 border: 1px solid #ccc;
+		 box-sizing: border-box;
+		 position: relative;
+		 bottom: 850px;
+		 left: 332px; 
+}
+
+
+		input[type=password] {
+		position: relative;
+		left: 10px;
+		bottom: 780px;
+}
+
+		footer{
+		text-align: center;
+		margin-right: 200px;
+  		height: 150px;
+  		width: 1520px;
+   		float:center; 
+		padding-top: 10px;
+		color: #ffffff;
+        font-size: 15px;
+		background-color: #0F2C59;
+        box-shadow:0 10px 35px 0 rgba(0, 0, 0,15.20);
+		position: relative;
+		bottom: 30px;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script> function togglePopup() {
+	document.getElementById("popup-1").classList.toggle("active");
+		} </script>
+	
+<title>Main Page</title>
+</head>
+	
+	<link rel="stylesheet" href="CSS/Main Page.css">
+	
+<body>
+	
+	<div class="Header1">
+		<img src="Pictures/uphsl logo.png" align = "left" height="150">
+		<img src="Pictures/ccs_logo.png" align = "right" height="150"> <br>
+		<h2> University of Perpetual Help System - JONELTA </h2>
+		<h3><b> Student Assessment Plan </b></h3>
+	</div>
+	
+	<div class="Header2"> </div>
+	
+	<div class="TopNav"> 
+		<a class="primary" href="Main Page.html">Home</a>
+		
+     </div>
+	<div class="Content1"> 
+		<div class="Parallelogram"> 
+		<img class="ccslogo" src="Pictures/ccs_logo.png">
+			<p class="SAP"><b>Student Assessment Plan</b></p>
+		</div>
+	</div>
+	<div class="popup" id="popup-1">
+	 <div class="overlay"></div>
+	  <div class="content">
+	 <div class="closebtn" onclick="togglePopup()">&times;</div>
+		  	<img class="SocialBG" src="Pictures/SocialBG.jpg">
+		    <img class="Social1 " src="Pictures/Social1.png">
+		  <p class="New"> New User? </p>	
+		  <p class="SignUp"><a href="SignUp.html">Sign up</a></p>
+		  <p class="message"><b><i>Login As</i></b></p>
+		  
+    	  <a href="Login Admin.html">
+		  <button class="AdminButton" onclick="togglePopup()"><b> Administrator </b></button>  </a>
+		  <a href="Login Evaluator.html">
+		  <button class="EvalButton" onclick="togglePopup()"><b> Evaluator </b></button>  </a>
+		  <a href="Login Student.html">
+		  <button class="StudentButton" onclick="togglePopup()"><b> Student </b></button>  </a>
+	</div>
+	  </div>
+	<div>
+	<button class="button3" onclick="togglePopup()"><b> Log in </b></button></div>
+
+	<footer>
+  		<p><b>University of Perpetual Help System LAGUNA</b></p>
+  		<p>Biñan | GMA | Pangasinan | Manila | Isabela | Roxas City | UPH-DJGTMU</p>
+		<p>Privacy Policy</p>
+		<p>Copyright 2023</p>
+	</footer>
+	
+</body>
+</html>
